@@ -9,10 +9,11 @@ const resultText = document.getElementById("result-text");
 
 // Options values for buttons
 let options = {
-  fruits: ["Apple", "Blueberry", "Mandarin", "Pineapple", "Pomegranate", "Watermelon", ],
-  animals: ["Hedgehog", "Rhinoceros", "Squirrel", "Panther", "Walrus", "Zebra"],
-  countries: ["India","Hungary", "Kyrgyzstan", "Switzerland","Zimbabwe","Dominica", ],
+  fruits: ["Apple", "Blueberry", "Mandarin", "Pineapple", "Pomegranate", "Watermelon", "Orange","Grape", "BlueBerry", "Bananas", "Mango", "Strawberries", "Durian", "Watermelon", "Peaches","Guava","Grapefruit","Olives","Cherries","Lychee"],
+  animals: ["Hedgehog", "Rhinoceros", "Squirrel", "Panther", "Walrus", "Zebra", "Lion", "Angelfish","Antelope","Araucana","Rhinoceros","Chimpanzee","Crocodile","Groundhog","Flamingo","Elephant","Cuttlefish","Klipspringer","Jackrabbit","Hummingbird"],
+  countries: ["India","Hungary", "Kyrgyzstan", "Switzerland","Zimbabwe","Dominica","Honduras","Greece","Finland","Germany","Kazakhstan","Montenegro","Mauritania","Malawi","Lithuania","Liechtenstein","Nicaragua","Philippines","Senegal","Turkmenistan"],
 };
+
 
 // Count
 let winCount = 0;
